@@ -1,0 +1,126 @@
+
+
+
+.DiaryEditor { /* 팝업 안의 데일리 css 내용*/
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  padding: 2px;
+  
+}
+
+.DiaryEditor input,
+textarea {
+  margin-bottom: -29px;
+  width: 380px;
+  padding: 0px;
+}
+
+.DiaryEditor textarea {
+  height: 130px;
+}
+
+.DiaryEditor select {
+  width: 50px;
+  padding: 3px;
+  margin-bottom: 0px;
+}
+
+.DiaryEditor button { /* 여기까지 팝업 안 데일리*/
+  width: 400px;
+  padding: 1px;
+  cursor: pointer;
+}
+.alltask{ /* task 전체 */
+  display: flex;
+  margin-top: 70px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+  overflow: auto;
+  padding:auto;
+  
+  height: 628px;
+}
+
+
+
+.modaltext{ /* 모달팝업 박스 */
+  border: 1px solid rgb(0, 0, 0);
+  
+  margin-left: 40px;
+  margin-right: auto;
+  display: flex;
+  max-width: 385px;
+  height: 628px;
+  overflow: auto;
+  background-color: rgba(255, 255, 255, 0.66);
+  
+  
+}
+
+.realtask{ /* 테스크 박스 */
+  
+  border: 10px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  border: 1px solid rgb(0, 0, 0);
+  width: 350px;
+  height: 628px;
+  background-color: rgba(255, 255, 255, 0.66);
+  
+}
+
+.dailyadd{
+  margin-top: 200px;
+
+  width: 100px;
+  height:40px;
+}
+
+.reward{ /* 리워드 박스 */
+  border: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 1px solid rgb(0, 0, 0);
+  width: 350px;
+  height: 628px;
+  overflow: auto;
+  background-color: rgba(255, 255, 255, 0.66);
+}
+
+@media screen and (max-width : 768px){
+  .alltask{
+    width:100%;
+  }
+
+  
+
+  .realtask{
+    width: 100%;
+  }
+  .reward{
+    width: 100%;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+  .modaltext {
+    width: 84%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .realtask {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .reward {
+    margin-bottom: 2rem;
+  }
+}

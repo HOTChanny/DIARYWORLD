@@ -1,0 +1,56 @@
+.leftmenu{
+  border: 5px solid gray;
+  margin-left: 100px;
+  margin-top:70px;
+  width: 280px;
+  height: auto;
+  overflow: auto;
+  background-color: rgba(255, 255, 255, 0.66);
+
+}
+
+.shoptitle{
+  text-align: left;
+  background-color: rgba(29, 124, 226, 0.671);
+}
+
+.shopitem{
+  border: 5px solid rgb(0, 0, 0);
+  margin-left: 380px;
+  margin-top:-327px;
+  margin-bottom:30px;
+
+  width: 100%;
+  max-width: 990px;
+
+  height: 560px;
+  overflow: auto;
+  background-color: rgba(255, 255, 255, 0.66);
+}
+
+.itemimg{
+  
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+a { text-decoration:none }
+
+@media screen and (max-width: px) {
+  .shopwhole{
+    width: 100%;
+    max-width: 600px;
+  }
+  .leftmenu{
+    width: 0px;
+    height: 0px;
+    padding: 0px;
+    font-size: 100px;
+  }
+  .shopitem{
+    width: 100%;
+    max-width: 600px;
+  }
+}
